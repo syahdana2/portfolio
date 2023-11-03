@@ -8,7 +8,6 @@ import ImmutableState from './pages/ImmutableState';
 import ImmutableArray from './pages/immutableArray';
 import Hero from './pages/Hero';
 import Project from './pages/Project';
-import Card from './pages/card';
 
 
 function App() {
@@ -19,14 +18,11 @@ function App() {
         <Route path='/login' element={<Login />}/>
         <Route path='/register' element={<Register />}/>
         <Route path='/formulir' element={<Formulir />}/>
-        <Route path='/login' element={<Login />}/>
         <Route path='/formulir2' element={<Formulir2 />}/>
-        <Route path='/hero' element={<Hero />}/>
         <Route path='/todolist' element={<TodoList />}/>
         <Route path='/state' element={<ImmutableState />}/>
         <Route path='/array' element={<ImmutableArray />}/>
         <Route path='/project' element={<Project />}/>
-        <Route path='/card' element={<Card />}/>
       </Routes>
     </Router>
   );

@@ -27,7 +27,8 @@ function Header() {
             <nav className="bg-slate-900 border-gray-900 dark:bg-gray-900">
                 <div className="h-10vh flex justify-between z-50 text-white lg:py-5 px-20 py-4">
                     <div className="flex items-center flex-1">
-                        <span className="text-3xl font-bold">0$</span>
+                        <img src="/logo.png" alt="logo" width={40} height={40} />
+                        <span className="text-3xl font-bold">S</span>
                     </div>
                     <div className="lg:flex md:flex lg: flex-1 items center justify-end font-normal hidden">
                         <div className="flex-10">
