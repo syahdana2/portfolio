@@ -8,7 +8,7 @@ function Hero() {
         <>
             <section
                 style={{
-                    backgroundImage: 'url("public/static/img/bg.jpg")',
+                    backgroundImage: 'url("/static/assets/bg.jpg")',
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     height: "100vh",
