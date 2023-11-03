@@ -1,7 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import Header from "./Header";
 import Project from "./Project";
-import Typed from "react-typed";
 
 function Hero() {
     const navigate = useNavigate();
@@ -30,16 +29,7 @@ function Hero() {
                     <div className="h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white">
                         <h1 className="text-5xl md:text-6xl bg-clip-text text-transparent bg-gradient-to-br from-purple-600 to-blue-500 font-extrabold leading-tighter tracking-tighter mb-4"> Hello I`m <span className="text-slate-300"> Okan</span></h1>
                         <div className="my-2">
-                            <Typed
-                                strings={[
-                                    "welcome to my portfolio",
-                                    "I'm a Full Stack Developer",
-                                    "I Like Design and UI/UX",
-                                ]}
-                                typeSpeed={150}
-                                backSpeed={120}
-                                loop
-                            />
+                            <p>ppppp</p>
                         </div>
                         <div className="flex mt-12 md:order-2">
                             <a href="https://github.com/syahdana2?tab=repositories" target="blank" className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
