@@ -6,24 +6,14 @@ function Hero() {
     const navigate = useNavigate();
     return (
         <>
-            <section id="home">
-                <video
-                    autoPlay
-                    loop
-                    muted
-                    style={{
-                        objectFit: "cover",
-                        width: "100%",
-                        height: "100vh",
-                        position: "fixed",
-                        top: 0,
-                        left: 0,
-                        zIndex: -99
-                    }}
-                >
-                    <source src="src/assets/img/galaxy.mp4" type="video/mp4" />
-                    Your browser does not support the video tag.
-                </video>
+            <section
+                style={{
+                    backgroundImage: 'url("src/assets/img/bg.jpg")',
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    height: "100vh",
+                }}
+            >
                 <Header />
                 <div className="lg:px-56 px-10 lg:py-0 py-20 mt-10 text-center gap-5 lg-text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center">
                     <div className="h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white">
