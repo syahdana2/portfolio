@@ -8,7 +8,7 @@ function Hero() {
         <>
             <section
                 style={{
-                    backgroundImage: 'url("src/assets/img/bg.jpg")',
+                    backgroundImage: 'url("public/static/img/bg.jpg")',
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     height: "100vh",
@@ -35,7 +35,7 @@ function Hero() {
                         </div>
                     </div>
                     <div className="mt-6 animate__animated animate__bounceInRight">
-                        <img className="animate-up-down" src="src/assets/img/astronot3.png" width={550} height={550} alt="" />
+                        <img className="animate-up-down" src="/static/assets/astronot3.png" width={550} height={550} alt="" />
                     </div>
                 </div>
             </section>
