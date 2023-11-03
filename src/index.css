@@ -19,5 +19,10 @@
   animation-timing-function: ease-in-out;
 }
 
+@layer components {
+  .card {
+  @apply rounded-xl shadow-lg}
+}
+
 
 
