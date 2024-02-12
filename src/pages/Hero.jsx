@@ -1,10 +1,8 @@
-import { useNavigate } from "react-router-dom";
 import Header from "./Header";
 import Project from "./Project";
 import TypeIt from "typeit-react";
 
 function Hero() {
-    const navigate = useNavigate();
     return (
         <>
             <section id="home">
@@ -39,16 +37,9 @@ function Hero() {
                             />
                         </div>
                         <div className="flex mt-8 md:order-2">
-                            <a href="https://github.com/syahdana2?tab=repositories" target="blank" className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
-                                <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                                    Github ✨
-                                </span>
+                            <a href="https://github.com/syahdana2?tab=repositories" target="blank" className="transition ease-in-out delay-300 bg-purple-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-200 text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-3 text-center mr-2 mb-2 ">
+                                Github✨
                             </a>
-                            <button onClick={() => navigate('/login')} className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
-                                <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                                    Login 🚀
-                                </span>
-                            </button>
                         </div>
                     </div>
                     <div className="mt-6 animate__animated animate__bounceInRight">
